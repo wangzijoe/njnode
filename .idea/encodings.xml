@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/njnode-beans" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-dbServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/njnode-webSocket" charset="UTF-8" />
+  </component>
+</project>

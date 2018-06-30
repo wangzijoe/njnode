@@ -1,0 +1,6 @@
+cn\njnode\item\server\impl\ItemCategoryServerImpl.class
+cn\njnode\item\dao\ItemCategoryDao.class
+cn\njnode\subscriber\dao\FriendsDao.class
+cn\njnode\system\dao\UserDao.class
+cn\njnode\system\server\impl\UserServerImpl.class
+cn\njnode\subscriber\server\impl\FriendsServerImpl.class

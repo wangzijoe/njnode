@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<!-- =========================== 布局定义 =========================== -->
+	<!-- 没有任何布局:适用于弹出窗口等 -->
+	<definition name="layout-single" template="/layout/single/pagelayout.jsp">
+		<put-attribute name="shortcut" value="/web/layout/top.jsp" />
+		<put-attribute name="body" value="#" />
+	</definition>
+	<!-- 标准三模块布局:适用于大部分页面 -->
+	<definition name="layout-threepart" template="/layout/three_part/pagelayout.jsp">
+		<put-attribute name="shortcut" value="/web/layout/top.jsp" />
+		<put-attribute name="body" value="#" />
+		<put-attribute name="houtai_left" value="/layout/three_part/houtai_left.jsp" />
+		<put-attribute name="bottom" value="/web/layout/bottom.jsp" />
+	</definition>
+
+	 
+	
+	 
+
+	<!-- 网站web 公共布局页面 -->
+	<definition name="layout-web-comment" template="/web/layout/homepage.jsp">
+		<put-attribute name="top" value="/web/layout/top.jsp" />
+		<put-attribute name="body" value="#" />
+		<put-attribute name="bottom" value="/web/layout/bottom.jsp" />
+	</definition>
+	
+	<!-- 网站个人 公共布局页面 -->
+	<definition name="layout-me-comment" template="/web/layout/mePage.jsp">
+		<put-attribute name="top" value="/web/layout/top.jsp" />
+		<put-attribute name="body" value="#" />
+		<put-attribute name="bottom" value="/web/layout/bottom.jsp" />
+	</definition>
+	
+	<!-- 网站web 公共布局页面：无 top.jsp -->
+	<definition name="layout-web-comment-no-top" template="/web/layout/homepage-no-top.jsp">
+		<put-attribute name="body" value="#" />
+		<put-attribute name="bottom" value="/web/layout/bottom.jsp" />
+	</definition>
+	<!-- 网站web 公共布局页面：无 top.jsp and bottom.jsp-->
+	<definition name="layout-web-comment-no-topBottom" template="/web/layout/homepage-no-topBottom.jsp">
+		<put-attribute name="body" value="#" />
+	</definition>
+
+	<!-- =========================== 系统页面定义结束 ========================== -->
+
+ 
+
+	<definition name="index" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+	</definition>
+	
+
+	 
+	<!-- goods -->
+	<definition name="goods.addGoodsPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/goods/addGoods.jsp" />
+	</definition>
+
+	<definition name="goods.addGoodsTypePage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/goods/addGoodsType.jsp" />
+	</definition>
+
+	<definition name="goods.goodsListPage" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/goods/goodsList.jsp" />
+	</definition>
+
+	<definition name="goods.goodsTypeListPage" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/goods/goodsTypeList.jsp" />
+	</definition>
+	
+	<definition name="goods.addMeasurePage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/goods/addMeasure.jsp" />
+	</definition>
+	
+	<definition name="goods.measureListPage" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/goods/measureList.jsp" />
+	</definition>
+	
+
+	<!-- sale -->
+	<definition name="sale.report" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/sale/report.jsp" />
+	</definition>
+
+	<definition name="sale.orderList" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/sale/orderList.jsp" />
+	</definition>
+	
+	<definition name="sale.proportionPictureReportPage" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/sale/pictureReportPage.jsp" />
+	</definition>
+	
+	<definition name="sale.salesPictureReportPage" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/sale/salesPictureReportPage.jsp" />
+	</definition>
+	
+
+	<!-- shop -->
+	<definition name="shop.deskArea" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/shop/deskArea.jsp" />
+	</definition>
+	<definition name="shop.shopList" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/shop/shopList.jsp" />
+	</definition>
+	
+	<definition name="shop.createStep" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/shop/createShop_step2.jsp" />
+	</definition>
+	
+	<!-- 创建店铺页 -->
+	<definition name="shop.createShop" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/shop/createShop.jsp" />
+	</definition>
+
+	<definition name="shop.addAreaPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/shop/addArea.jsp" />
+	</definition>
+
+
+	<definition name="shop.addDeskByAreaId" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/shop/addDeskByAreaId.jsp" />
+	</definition>
+
+
+	<!-- employee -->
+	<definition name="employee.employeeListPage" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employee/employeeList.jsp" />
+	</definition>
+	
+	<definition name="employee.cookPage" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employee/cookList.jsp" />
+	</definition>
+	<definition name="employee.addCookPage" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employee/addCookPage.jsp" />
+	</definition>
+	
+	<definition name="employee.addEmployeePage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employee/addEmployeePage.jsp" />
+	</definition>
+	<definition name="employee.employeeYeJiPage" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/employee/employeeYeJiPage.jsp" />
+	</definition>
+
+
+
+
+	<!-- member -->
+	<definition name="member.memberCardList" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/member/memberCardList.jsp" />
+	</definition>
+	<definition name="member.memberRecordList" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/member/memberRecordList.jsp" />
+	</definition>
+	
+
+	<definition name="member.memberTypeList" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/member/memberTypeList.jsp" />
+	</definition>
+
+	<definition name="member.addmemberCardPage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/member/addMemberCard.jsp" />
+	</definition>
+
+	<definition name="member.addmemberTypePage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/member/addMemberType.jsp" />
+	</definition>
+
+
+
+
+	<!-- login -->
+	<definition name="loginPage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/login_register/login.jsp" />
+	</definition>
+
+	<definition name="registerPage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/login_register/register.jsp" />
+	</definition>
+
+
+	<!-- print -->
+	<definition name="print.printList" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/print/printList.jsp" />
+	</definition>
+	<definition name="print.addPrintPage" extends="layout-threepart">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/print/addPrintPage.jsp" />
+	</definition>
+
+
+	<!-- flavor -->
+	<definition name="flavor.addFlavorPage" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/flavor/addFlavor.jsp" />
+	</definition>
+	<definition name="flavor.flavorListPage" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/flavor/flavorList.jsp" />
+	</definition>
+	<!-- 搜索页面 -->
+	<definition name="searchPage.searchPageList" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/web/searchPage.jsp" />
+	</definition>
+	<!-- 美食搜索 -->
+	<definition name="searchPage.searchGoodsPageList" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/web/searchGoodsPage.jsp" />
+	</definition>
+	
+	
+	
+	
+	
+
+	<!-- 网站前台 商品详情页面 -->
+	<definition name="goodsWeb.intoGoodsDetails" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/web/intoGoodsDetails.jsp" />
+	</definition>
+
+	<!--店铺前台 详情页面 -->
+	<definition name="shopWeb.shopWebPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/shopWeb.jsp" />
+	</definition>
+	<!--店铺前台 店内搜索页面 -->
+	<definition name="shopWeb.shopWebSearchPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/shopWebSearchPage.jsp" />
+	</definition>
+
+	<!-- 购物车页面 -->
+	<definition name="trolley.shoppingTrolleyPage" extends="layout-web-comment">
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/web/shoppingTrolley.jsp" />
+	</definition>
+	<!-- 订单页面 -->
+	<definition name="trolley.orderPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/orderPage.jsp" />
+	</definition>
+	<!-- 付款后页面 -->
+<!-- 	<definition name="trolley.paymentAfterPage"> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/jsp/web/paymentAfterPage.jsp" /> -->
+<!-- 	</definition> -->
+	<definition name="trolley.paymentAfterPage" template="/WEB-INF/jsp/web/paymentAfterPage.jsp"/>
+	<definition name="trolley.paymentAfterPageFailed" template="/WEB-INF/jsp/web/paymentAfterPageFailed.jsp"/>
+	
+	<!-- 在线支付完成后跳转页面 -->
+	<definition name="trolley.paymentAfterPage1" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/paymentAfterPage1.jsp" />
+	</definition>
+	
+	<!-- 登陆页面 -->
+	<definition name="loginReg.intoLoginIndex" extends="layout-web-comment-no-top">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/intoLoginIndex.jsp" />
+	</definition>
+	<!-- 注册页面 -->
+	<definition name="loginReg.intoRegIndex" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/intoRegIndex.jsp" />
+	</definition>	
+	<!-- 支付密码页 -->
+	<definition name="loginReg.payPassword" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/payPassword.jsp" />
+	</definition>
+	<!-- 忘记密码 -->
+	<definition name="loginReg.intoForgetPasswordIndex" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/intoForgetPasswordIndex.jsp" />
+	</definition>	
+	
+	
+	
+	<!-- 店铺装修 首页 -->
+	<definition name="shopDecoration.shopDecorationIndex" extends="layout-threepart">
+		<put-attribute name="body" value="/WEB-INF/jsp/shopDecoration/shopDecorationIndex.jsp" />
+	</definition>
+	<!-- 收藏页面 -->
+	<definition name="favorites.favoritesPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/favoritesPage.jsp" />
+	</definition>
+	<!-- 买家后台页面 -->
+	<definition name="gerenhoutai.gerenhoutaiPage" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/me/gerenhoutaiPage.jsp" />
+	</definition>
+	
+	
+	<!-- 评价页面 -->
+	<definition name="comment.commentPage" extends="layout-web-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/commentPage.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 评价成功 -->
+	<definition name="comment.addGoodsComment" extends="layout-web-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/addGoodsComment.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 我的足迹 -->
+	<definition name="footmark.footmarkPage" extends="layout-web-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/footmarkPage.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 我的收获地址 -->
+	<definition name="me.myAddressPage" extends="layout-me-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/me/myAddressPage.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 个人资料地址 -->
+	<definition name="me.personaldata" extends="layout-me-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/me/mydata.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 个人评价地址 -->
+	<definition name="me.myevaluate" extends="layout-me-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/me/myComment.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 个人订单地址 -->
+	<definition name="me.myorder" extends="layout-me-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/me/myOrder.jsp"></put-attribute>
+	</definition>
+	
+	<!-- 账户管理 -->
+	<definition name="me.myBankCard" extends="layout-me-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/me/myBankCard.jsp"></put-attribute>
+	</definition>
+	
+	
+	<!-- 评论成功 -->
+	<definition name="me.commentSuccess" extends="layout-web-comment">
+	  <put-attribute name="body" value="/WEB-INF/jsp/web/me/commentSuccess.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ####### 团购 相关配置****************************************************** - -->
+	
+	<!-- 团购主页  -->
+	<definition name="group.index" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/group/index.jsp" />
+	</definition>
+	<!-- 团购详细页面 -->
+	<definition name="group.details" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/group/details.jsp" />
+	</definition>
+	<!-- 团购搜索页面 -->
+	<definition name="group.search" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/group/search.jsp" />
+	</definition>
+	<!-- **************************************************************************- -->
+	
+	<!-- ####### 宴请 相关配置****************************************************** - -->
+	
+	<!-- 宴请主页  -->
+	<definition name="banquet.index" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/banquet/index.jsp" />
+	</definition>
+	<!-- 宴请详细页面 -->
+	<definition name="banquet.details" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/banquet/details.jsp" />
+	</definition>
+	<!-- 宴请搜索页面 -->
+	<definition name="banquet.search" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/banquet/search.jsp" />
+	</definition>
+	
+	<!-- ####### 外卖 相关配置****************************************************** - -->
+	<!-- 外卖地图主页  -->
+	<definition name="takeout.indexMap" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/takeout/indexMap.jsp" />
+	</definition>
+	<!-- 外卖 店铺详情页面  -->
+	<definition name="takeout.details" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/takeout/details.jsp" />
+	</definition>
+	<!-- 外卖搜索页面 -->
+	<definition name="takeout.search" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/takeout/search.jsp" />
+	</definition>
+	
+	<!-- 预定的购物车页面 -->
+	<definition name="reservation.trolley" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/reservation/trolleyPage.jsp" />
+	</definition>
+	<!-- **************************************************************************- -->
+	
+	<!-- ####### 帮助 相关配置****************************************************** - -->
+	<!-- 帮助首页 -->
+	<definition name="help.index" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/web/help/index.jsp" />
+	</definition>
+	<!-- **************************************************************************- -->
+	
+	<!-- error页面 -->
+	<definition name="error" extends="layout-web-comment">
+		<put-attribute name="body" value="/WEB-INF/jsp/errorPages/error.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

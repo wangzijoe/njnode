@@ -1,0 +1,4 @@
+cn\njnode\Base.class
+cn\njnode\system\sever\impl\UserServerImpl.class
+cn\njnode\subscriber\server\impl\FriendsServerImpl.class
+cn\njnode\item\server\impl\ItemCategoryServerImpl.class
