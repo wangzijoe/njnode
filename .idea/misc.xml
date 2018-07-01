@@ -9,13 +9,20 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/njnode-core/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-core/pom.xml" />
+        <option value="$PROJECT_DIR$/njnode-beans/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-beans/pom.xml" />
+        <option value="$PROJECT_DIR$/njnode-shiro/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/njnode-client/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-client/pom.xml" />
+        <option value="$PROJECT_DIR$/njnode-common/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-common/pom.xml" />
         <option value="$PROJECT_DIR$/njnode-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/njnode-manager/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/njnode-dbServer/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/njnode-dbServer/pom.xml" />
         <option value="$PROJECT_DIR$/njnode-webSocket/pom.xml" />
       </list>

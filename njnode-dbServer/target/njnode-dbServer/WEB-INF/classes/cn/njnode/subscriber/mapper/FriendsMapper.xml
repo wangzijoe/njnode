@@ -91,16 +91,16 @@
 		from t_friends
 		where 1=1
 		<if test="userId != null">
-			AND user_id = #{userId,jdbcType=VARCHAR},
+			AND user_id = #{userId,jdbcType=VARCHAR}
 		</if>
 		<if test="friendsId != null">
-			AND friends_id = #{friendsId,jdbcType=VARCHAR},
+			AND friends_id = #{friendsId,jdbcType=VARCHAR}
 		</if>
 		<if test="relationship != null">
-			AND relationship = #{relationship,jdbcType=INTEGER},
+			AND relationship = #{relationship,jdbcType=INTEGER}
 		</if>
 		<if test="group != null">
-			AND group = #{group,jdbcType=VARCHAR},
+			AND group = #{group,jdbcType=VARCHAR}
 		</if>
 		ORDER BY id desc
 	</select>

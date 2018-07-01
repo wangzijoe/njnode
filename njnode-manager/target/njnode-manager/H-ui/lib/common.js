@@ -226,9 +226,9 @@ var NJ_NODE = {
 	    formatJson:function (json) {
 
 	        var i           = 0,
-	            len          = 0,
+	            len         = 0,
 	            tab         = "    ",
-	            targetJson     = "",
+	            targetJson  = "",
 	            indentLevel = 0,
 	            inString    = false,
 	            currentChar = null;

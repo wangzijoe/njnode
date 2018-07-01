@@ -31,9 +31,8 @@ public class ItemController {
     @RequestMapping(value = "getItemCategoryTree", method = RequestMethod.GET)
     public void getItemCategoryTree(ItemCategory itemCategory, HttpServletResponse response){
         try {
-            HandlerResult<ItemCategory> res = ItemCategoryServer.queryItemCategoryById(1L);
             HandlerResult<List<ItemCategory>> result = ItemCategoryService.getItemCategoryList(itemCategory);
-            ResponseWrite.write(response, JSON.toJSONString(res));
+            ResponseWrite.write(response, JSON.toJSONString(result));
         } catch (Exception e) {
             log.info("ItemController Error", e);
             ResponseWrite.write(response,JSON.toJSONString(HandlerConstants.ERROR));

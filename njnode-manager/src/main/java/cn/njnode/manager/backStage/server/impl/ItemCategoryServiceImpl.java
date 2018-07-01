@@ -21,6 +21,8 @@ public class ItemCategoryServiceImpl implements ItemCategoryService {
     @Resource
     private ItemCategoryServer ItemCategoryServer;
 
+    private static final List<ItemCategory> returnList = new ArrayList<>();
+
     @Override
     public HandlerResult<List<ItemCategory>> getItemCategoryList(ItemCategory itemCategory) {
         HandlerResult<List<ItemCategory>> result = HandlerResult.getHandlerResult();
@@ -40,8 +42,6 @@ public class ItemCategoryServiceImpl implements ItemCategoryService {
     private HandlerResult<List<ItemCategory>> getChildItemCategory(ItemCategory itemCategory){
         HandlerResult<List<ItemCategory>> result = HandlerResult.getHandlerResult();
         try {
-
-            List<ItemCategory> returnList = new ArrayList<ItemCategory>();
 
             ItemCategory ic = new ItemCategory();
             ic.setParentId(itemCategory.getId());

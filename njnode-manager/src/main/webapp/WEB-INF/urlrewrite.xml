@@ -10,21 +10,21 @@
 -->
 <urlrewrite decode-using="UTF-8">
 
-    
+
     <rule>
 		<from>^/favicon.ico</from>
 		<to type="forward">/appManager</to>
 	</rule>
-    
+
 	<rule>
 		<from>^/login.html</from>
 		<to type="forward">/login</to>
-	</rule> 
+	</rule>
 	<rule>
 		<from>^/(\d{2})(\d{2})(\d+)(\d{2})(\d{2})/manage.html</from>
 		<to type="forward">/manager?appId=$3</to>
 	</rule>
-	
+
 	<rule>
 		<from>^/login/index.html</from>
 		<to type="forward">/login/index</to>
@@ -33,21 +33,21 @@
 		<from>^/register.html</from>
 		<to type="forward">/register</to>
 	</rule>
-	
-	
-	 
-	
-	
-	 
-	
-	
+
+
+
+
+
+
+
+
 	<!-- app管理 -->
 	<rule>
 		<from>^/appTypeDetail/(\d{2})(\d+)(\d{2})/(\d+)</from>
 		<to type="forward">/appTypeDetail?appTypeId=$2</to>
 	</rule>
-	 
-	
+
+
     <outbound-rule>
         <note>
             The outbound-rule specifies that when response.encodeURL is called (if you are using JSTL c:url)

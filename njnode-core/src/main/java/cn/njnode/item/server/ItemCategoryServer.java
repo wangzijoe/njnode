@@ -2,6 +2,7 @@ package cn.njnode.item.server;
 
 import cn.njnode.HandlerResult;
 import cn.njnode.SpaceName;
+import cn.njnode.SpaceName.space;
 import cn.njnode.beans.item.ItemCategory;
 
 import javax.jws.WebService;
@@ -11,7 +12,7 @@ import java.util.List;
 
 @WebService
 @Path("/itemCategoryServer")
-@SpaceName(SpaceName.space.item)
+@SpaceName(space.item)
 public interface ItemCategoryServer {
 
     @POST
