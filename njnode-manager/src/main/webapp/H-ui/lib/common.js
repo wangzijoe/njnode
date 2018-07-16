@@ -37,6 +37,28 @@ Date.prototype.format = function(format) {
     }  
     return format;  
 };
+/**
+ * 获取当前时间增加或减少n天后的日期
+ * @param addDays  增加或减少的天数
+ * @returns 20180714
+ */
+Date.prototype.getTimeStr = function(addDays){
+    var dd = new Date();
+    dd.setDate(dd.getDate()+addDays);//获取AddDayCount天后的日期
+    var y = dd.getFullYear();
+    var m = dd.getMonth()+1+"";//获取当前月份的日期
+    var d = dd.getDate()+"";
+    return y+"-"+(m.length > 1 ? m : "0"+m)+"-"+(d.length > 1 ? d : "0" + d);
+};
+/**
+ * 获取指定年，指定月的天数
+ * @param year, month指定年，指定月
+ * @returns 31
+ */
+Date.prototype.getDays = function (year, month) {
+    var d = new Date(year, month, 0);
+    return d.getDate();
+};
 
 
 /**
