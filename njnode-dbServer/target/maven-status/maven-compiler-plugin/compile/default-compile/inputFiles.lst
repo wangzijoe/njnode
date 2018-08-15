@@ -3,4 +3,5 @@ C:\ideaSpace\njnode\njnode-dbServer\src\main\java\cn\njnode\system\server\impl\U
 C:\ideaSpace\njnode\njnode-dbServer\src\main\java\cn\njnode\item\dao\ItemCategoryDao.java
 C:\ideaSpace\njnode\njnode-dbServer\src\main\java\cn\njnode\subscriber\server\impl\FriendsServerImpl.java
 C:\ideaSpace\njnode\njnode-dbServer\src\main\java\cn\njnode\subscriber\dao\FriendsDao.java
+C:\ideaSpace\njnode\njnode-dbServer\src\main\java\cn\njnode\interceptor\AuthInterceptor.java
 C:\ideaSpace\njnode\njnode-dbServer\src\main\java\cn\njnode\system\dao\UserDao.java

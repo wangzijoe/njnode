@@ -35,10 +35,10 @@ public class NjNodeMsgController {
 	public void sendMsg(HttpServletRequest request, HttpServletResponse response) {
 		try {
 			handler.sendMessageToFriend(new TextMessage(new GsonBuilder().create().toJson("\"number\":\""+"GarlicPriceController/testWebSocket"+"\"")), "AAA");  
-			ResponseWrite.Write(response, JSON.toJSONString(HandlerConstants.SUCCESS));
+			ResponseWrite.write(response, JSON.toJSONString(HandlerConstants.SUCCESS));
 		} catch (Exception e) {
 			log.error("NjNodeMsgController error", e);
-			ResponseWrite.Write(response, JSON.toJSONString(HandlerConstants.ERROR));
+			ResponseWrite.write(response, JSON.toJSONString(HandlerConstants.ERROR));
 		}
 	}
 }

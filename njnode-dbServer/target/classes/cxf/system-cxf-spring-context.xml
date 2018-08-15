@@ -14,6 +14,7 @@
 
 
     <bean id="userServer" class="cn.njnode.system.server.impl.UserServerImpl"/>
+    <jaxws:endpoint id="userServerWs" implementor="#userServer" address="/userServer" publish="true"/>
 
     <jaxrs:server address="/system">
         <jaxrs:serviceBeans>
@@ -24,6 +25,7 @@
         </jaxrs:providers>
         <jaxrs:inInterceptors>
             <bean class="org.apache.cxf.jaxrs.provider.jsonp.JsonpInInterceptor"/>
+            <ref bean="authInterceptor"/>
         </jaxrs:inInterceptors>
         <jaxrs:outInterceptors>
             <bean class="org.apache.cxf.jaxrs.provider.jsonp.JsonpPreStreamInterceptor"/>

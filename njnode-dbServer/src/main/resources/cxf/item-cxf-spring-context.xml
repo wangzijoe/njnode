@@ -14,6 +14,9 @@
 
 
     <bean id="itemCategoryServer" class="cn.njnode.item.server.impl.ItemCategoryServerImpl"/>
+    <jaxws:endpoint id="itemCategoryServerWs" implementor="#itemCategoryServer" address="/itemCategoryServer" publish="true"/>
+
+
 
     <jaxrs:server address="/item">
         <jaxrs:serviceBeans>

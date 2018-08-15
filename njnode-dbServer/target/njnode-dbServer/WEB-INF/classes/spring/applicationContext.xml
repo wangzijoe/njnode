@@ -31,9 +31,7 @@
 		<property name="location" value="classpath:resource/db.properties" />
 	</bean>
 
-	<bean id="dataSource"
-		class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
-		destroy-method="close">
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
 		<property name="url" value="${jdbc.url}" />
 		<property name="driverClassName" value="${jdbc.driver}" />
 		<property name="username" value="${jdbc.username}" />
@@ -107,8 +105,10 @@
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="cn.njnode.*.dao" />
 	</bean>
-	
-	
+
+	<!-- 权限拦截器 -->
+	<bean id="authInterceptor" class="cn.njnode.interceptor.AuthInterceptor"/>
+
 	<import resource="classpath:cxf/system-cxf-spring-context.xml"/>
 	<import resource="classpath:cxf/subscriber-cxf-spring-context.xml"/>
 	<import resource="classpath:cxf/item-cxf-spring-context.xml"/>
