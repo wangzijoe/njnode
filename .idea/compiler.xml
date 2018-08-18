@@ -6,22 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="maven-archiver (1)" />
-        <module name="maven-archiver (2)" />
-        <module name="maven-archiver (3)" />
-        <module name="maven-archiver (4)" />
-        <module name="maven-archiver (5)" />
-        <module name="maven-archiver (6)" />
-        <module name="maven-archiver (7)" />
         <module name="njnode-beans" />
         <module name="njnode-client" />
         <module name="njnode-common" />
         <module name="njnode-core" />
         <module name="njnode-dbServer" />
+        <module name="njnode-iask" />
         <module name="njnode-manager" />
         <module name="njnode-shiro" />
-        <module name="njnode-webSocket" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="maven-archiver (3)" target="1.5" />
+      <module name="maven-archiver (4)" target="1.5" />
+      <module name="maven-archiver (5)" target="1.5" />
+      <module name="maven-archiver (6)" target="1.5" />
+      <module name="maven-archiver (7)" target="1.5" />
+      <module name="njnode-webSocket" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

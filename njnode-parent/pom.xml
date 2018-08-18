@@ -125,14 +125,10 @@
 				<version>${druid.version}</version>
 			</dependency>
 			<!-- Spring -->
+			<!-- 添加Spring依赖 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
-				<artifactId>spring-context</artifactId>
-				<version>${spring.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-beans</artifactId>
+				<artifactId>spring-core</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
 			<dependency>
@@ -142,7 +138,17 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
-				<artifactId>spring-jdbc</artifactId>
+				<artifactId>spring-context</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context-support</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aop</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
 			<dependency>
@@ -152,13 +158,17 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
-				<artifactId>spring-websocket</artifactId>
+				<artifactId>spring-tx</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.springframework/spring-messaging -->
 			<dependency>
 				<groupId>org.springframework</groupId>
-				<artifactId>spring-messaging</artifactId>
+				<artifactId>spring-jdbc</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
 			<!-- JSP相关 -->
