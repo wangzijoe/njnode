@@ -58,7 +58,7 @@
 		</profile>
 	</profiles>
 	<build>
-		<finalName>njnode-webSocket</finalName>
+		<finalName>njnode-iask</finalName>
 		<filters>
 			<filter>filter-${env}.properties</filter>
 		</filters>

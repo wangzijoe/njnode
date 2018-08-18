@@ -2,796 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc4d0cf-e431-4647-b99c-58f6a361039a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/njnode-iask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/cache/CacheUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/constant/CacheConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dao/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/web/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/H-ui前端框架官方网站.URL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/ColorPicker/1.5.0/ColorPicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/DD_belatedPNG_0.0.8a-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/iconfont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Hui-iconfont/1.0.8/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/twoer/datepicker-dev.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/twoer/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/twoer/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/twoer/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/My97DatePicker/4.8/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/css/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/01-default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/02-responsive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/03-vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/04-space-between.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/05-slides-per-view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/06-slides-per-view-auto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/07-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/08-centered-auto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/09-freemode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/10-slides-per-column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/11-nested.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/12-grab-cursor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/13-scrollbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/14-nav-arrows.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/15-infinite-loop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/16-effect-fade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/17-effect-cube.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/18-effect-coverflow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/19-keyboard-control.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/20-mousewheel-control.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/21-autoplay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/22-dynamic-slides.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/23-thumbs-gallery-loop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/23-thumbs-gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/24-multiple-swipers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/25-hash-navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/26-rtl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/27-jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/28-parallax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/29-custom-pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/30-lazy-load-images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/31-custom-plugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/32-scroll-container.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/32-slideable-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/33-responsive-breakpoints.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/34-autoheight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/35-effect-flip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/36-pagination-fraction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/37-pagination-progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/38-history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/38-jquery-ie9-loop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/demos/39-zoom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/js/swiper.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/js/swiper.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/js/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Swiper/3.4.2/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Validform/5.3.2/Validform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Validform/5.3.2/Validform.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/Validform/5.3.2/passwordStrength-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/bootbox/4.4.0/bootbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/bootbox/4.4.0/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/datatables/1.10.0/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/expressInstall.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/handlebars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery-ui/1.9.1/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/b-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/b-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/b-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/b-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/b-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/b-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/iconpic-arrow-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/s-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/s-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/s-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/s-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/s-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/01/images/s-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/02/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/02/images/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/02/images/banner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/02/images/banner-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/03/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/demo/03/images/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.SuperSlide/2.1.1/jquery.SuperSlide.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/messages_zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/messages_zh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery.validation/1.14.0/validate-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery/1.9.1/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jquery/1.9.1/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/jselect-1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/layer/2.4/skin/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/laypage/1.2/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/laypage/1.2/skin/laypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/nprogress/0.2.0/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/nprogress/0.2.0/nprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/nprogress/0.2.0/nprogress.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/nprogress/0.2.0/nprogress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/squid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/lib/waterfall.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/css/H-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/css/H-ui.ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/css/H-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/css/H-ui.reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/Hui-tags/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/acrossTab/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/acrossTab/acrossTab-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/acrossTab/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/dataTable/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/dataTable/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/dataTable/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/dropDown/icon-jt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/201.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/202.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/203.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/204.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/205.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/206.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/207.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/208.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/209.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/210.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/face/QQ/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iCheck/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/iconpic-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/jselect/iconpic-arrow-down2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/loading/loading-b.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/loading/loading-s.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/rollpic/unslider-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/star/iconpic-star-S-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/star/iconpic-star-S.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/steps/step_arrow-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/steps/step_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/steps/step_bg-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/steps/step_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/ucnter/avatar-default-S.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/ucnter/avatar-default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/ucnter/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/ucnter/noavatar_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/validform/iconpic-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/validform/iconpic-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/validform/iconpic-warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tabNav-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tabNav-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tabNav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tabNav_right-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tabNav_right-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tabNav_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/images/verticalTab/tab_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/js/H-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/js/H-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Bootstrap.button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huifocusblur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huifold.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huihover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huipreview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huispinner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huitab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huitags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huitextarealength.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/HuitogglePassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/Huitotop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/css/Bootsrtap.Switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/css/H-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/css/jQuery.icheck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/Hui-tags/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/acrossTab/acrossTab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/acrossTab/acrossTab-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/acrossTab/acrossTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/acrossTab/unslider-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/acrossTab/unslider-arrow2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/dataTable/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/dataTable/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/dataTable/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/dropDown/icon-jt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/201.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/202.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/203.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/204.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/205.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/206.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/207.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/208.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/209.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/210.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/face/QQ/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/iCheck/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/icon-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/jselect/iconpic-arrow-down2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/loading-b.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/loading-s.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/star/iconpic-star-S-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/star/iconpic-star-S.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/steps/step_arrow-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/steps/step_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/steps/step_bg-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/steps/step_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/ucnter/avatar-default-S.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/ucnter/avatar-default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/ucnter/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/ucnter/noavatar_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/validform/iconpic-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/validform/iconpic-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/validform/iconpic-warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tabNav-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tabNav-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tabNav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tabNav_right-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tabNav_right-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tabNav_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/images/verticalTab/tab_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/Bootstrap.transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.ColorPicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.HuiaddFavorite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huialert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huifocusblur.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huifold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huihover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huimodalalert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huipreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huiselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huisethome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huisidenav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huispinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huitab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huitags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huitagsmixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huitextarealength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.HuitogglePassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.Huitotop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.IEMobileHack.js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.iCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.onePageNav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.raty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.responsive-nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.stickUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jQuery.stopDefault.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jquery.Huimarquee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jquery.emailsuggest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/jquery.lazyload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/static/h-ui/src/js/mValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/temp/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/temp/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/temp/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/H-ui/【目录结构】必读.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/system.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-common/target/njnode-common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-common/target/njnode-common-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dbServer/dao/ItemDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dbServer/manager/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dbServer/service/ItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dbServer/service/impl/ItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/reptileRobot/Analyze.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/reptileRobot/ConnectionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/reptileRobot/HouseInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/webSocket/config/NjNodeWebSocketConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/webSocket/controller/NjNodeMsgController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/webSocket/handler/NjNodeWebSocketHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/webSocket/handshake/HandShake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/applicationContext-webSocket.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/filter-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/filter-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/resources/config/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/resources/config/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/WEB-INF/jsp/webSocket/webSocketTest.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/example/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/example/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/example/optionKeywords.html" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/example/optionKeywords.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/example/word-cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/example/word-cloud.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/example/wordCloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/example/wordCloud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/src/WordCloudSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/src/WordCloudSeries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/src/WordCloudView.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/src/WordCloudView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/src/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/src/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/src/wordCloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/src/wordCloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts-wordcloud/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts-wordcloud/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/main/webapp/lib/echarts/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/src/main/webapp/lib/echarts/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/src/test/java/cn/njnode/webSocket/Test8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/WEB-INF/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/dbServer/dao/ItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/dbServer/manager/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/dbServer/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/dbServer/service/impl/ItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/reptileRobot/Analyze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/reptileRobot/ConnectionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/reptileRobot/HouseInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/webSocket/config/NjNodeWebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/webSocket/controller/NjNodeMsgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/webSocket/handler/NjNodeWebSocketHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/webSocket/handler/NjNodeWebSocketHandler$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/webSocket/handler/NjNodeWebSocketHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/cn/njnode/webSocket/handshake/HandShake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/config/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/example/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/example/optionKeywords.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/example/word-cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/example/wordCloud.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/src/WordCloudSeries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/src/WordCloudView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/src/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/src/wordCloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts-wordcloud/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/lib/echarts/echarts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/spring/applicationContext-webSocket.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/dbServer/dao/ItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/dbServer/manager/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/dbServer/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/dbServer/service/impl/ItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/webSocket/config/NjNodeWebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/webSocket/controller/NjNodeMsgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/webSocket/handler/NjNodeWebSocketHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/webSocket/handler/NjNodeWebSocketHandler$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/webSocket/handler/NjNodeWebSocketHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/cn/njnode/webSocket/handshake/HandShake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/config/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/spring/applicationContext-webSocket.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/jsp/webSocket/webSocketTest.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/asm-3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/aspectjweaver-1.8.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-codec-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-httpclient-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-net-3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/commons-pool2-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-api-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-common-utilities-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-bindings-soap-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-bindings-xml-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-core-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-databinding-jaxb-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-frontend-jaxrs-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-frontend-jaxws-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-frontend-simple-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-transports-common-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-transports-http-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-transports-http-jetty-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-rt-ws-addr-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/cxf-tools-common-2.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/ehcache-core-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/fastjson-1.2.46.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/geronimo-servlet_2.5_spec-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/happy-dns-java-0.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/httpclient-4.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/httpcore-4.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/httpmime-4.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jackson-annotations-2.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jackson-core-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jackson-databind-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jackson-jaxrs-base-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jackson-jaxrs-json-provider-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jackson-module-jaxb-annotations-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jaxb-impl-2.1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jedis-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jettison-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jetty-continuation-7.5.4.v20111024.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jetty-http-7.5.4.v20111024.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jetty-io-7.5.4.v20111024.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jetty-security-7.5.4.v20111024.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jetty-server-7.5.4.v20111024.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jetty-util-7.5.4.v20111024.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/joda-time-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/neethi-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/njnode-common-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/noggit-0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/okhttp-3.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/okio-1.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/pagehelper-5.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/qiniu-java-sdk-7.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/quartz-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/shiro-core-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/shiro-ehcache-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/shiro-quartz-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/shiro-spring-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/shiro-web-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/slf4j-api-1.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/solr-solrj-4.10.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/spring-websocket-4.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/stax2-api-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/woodstox-core-asl-4.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/wsdl4j-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/wstx-asl-3.2.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/xml-resolver-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/xmlschema-core-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/lib/zookeeper-3.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/example/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/example/optionKeywords.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/example/word-cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/example/wordCloud.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/src/WordCloudSeries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/src/WordCloudView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/src/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/src/wordCloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts-wordcloud/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/lib/echarts/echarts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/WEB-INF/jsp/webSocket/webSocketTest.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/dist/echarts-wordcloud.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/example/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/example/optionKeywords.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/example/word-cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/example/wordCloud.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/src/WordCloudSeries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/src/WordCloudView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/src/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/src/wordCloud.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts-wordcloud/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/njnode-webSocket/webapp/lib/echarts/echarts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/njnode-webSocket/target/test-classes/cn/njnode/webSocket/Test8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/njnode-iask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/njnode-iask/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/njnode-shiro/target/" />
     <ignored path="$PROJECT_DIR$/njnode-beans/target/" />
@@ -841,14 +52,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacheUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/njnode-iask/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/cache/CacheUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+            <state relative-caret-position="371">
+              <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2444#2459#1" expanded="true" />
                 <element signature="e#2715#2716#0" expanded="true" />
                 <element signature="e#2744#2745#0" expanded="true" />
               </folding>
@@ -911,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dao/ItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -921,15 +140,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/njnode-parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="154" column="54" selection-start-line="154" selection-start-column="54" selection-end-line="154" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -994,7 +204,6 @@
         <option value="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/item/dao/ItemCategoryDao.java" />
         <option value="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dao/ItemCat.java" />
         <option value="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/njnode-iask/pom.xml" />
         <option value="$PROJECT_DIR$/njnode-parent/pom.xml" />
         <option value="$PROJECT_DIR$/njnode-common/pom.xml" />
         <option value="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/applicationContext.xml" />
@@ -1010,6 +219,7 @@
         <option value="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/njnode-iask/src/main/resources/spring/ehcache.xml" />
         <option value="$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dao/ItemDao.java" />
+        <option value="$PROJECT_DIR$/njnode-iask/pom.xml" />
       </list>
     </option>
   </component>
@@ -1184,6 +394,11 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njnode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njnode-iask" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njnode" type="b2602c69:ProjectViewProjectNode" />
@@ -1506,12 +721,12 @@
       <workItem from="1534428174920" duration="41000" />
       <workItem from="1534432897856" duration="4617000" />
       <workItem from="1534506842249" duration="599000" />
-      <workItem from="1534583527105" duration="16290000" />
+      <workItem from="1534583527105" duration="16665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66905000" />
+    <option name="totallyTimeSpent" value="67280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1527,7 +742,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22751896" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22751896" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -1537,7 +752,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.45937163" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22974414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22974414" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1731,13 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/njnode-iask/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/njnode-common/src/main/java/cn/njnode/common/json/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1839,7 +1047,7 @@
     <entry file="file://$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/dao/ItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1857,14 +1065,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/njnode-iask/src/main/java/cn/njnode/cache/CacheUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+        <state relative-caret-position="371">
+          <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2444#2459#1" expanded="true" />
             <element signature="e#2715#2716#0" expanded="true" />
             <element signature="e#2744#2745#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/njnode-iask/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
         </state>
       </provider>
     </entry>
