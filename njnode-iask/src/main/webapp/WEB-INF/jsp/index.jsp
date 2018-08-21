@@ -7,6 +7,7 @@
 </head>
 <body>
 
+    <input value="" type="">
 
 </body>
 </html>
